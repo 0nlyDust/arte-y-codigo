@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Garamond, serif;
+  background: linear-gradient(135deg, #ffffff, #ffb6c1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;    
+  height: 100vh;
+}
+
+h1 {
+  font-family: Copperplate, sans-serif;
+  color: #ffffff;
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-top: 2rem;
+  text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165b
+  
+  a {
+  display: inline-block;
+  outline: none;
+  color: #DAA06D;
+  padding: 1em 3em;
+  border: 2px dashed #DAA06D;
+  border-radius: 15px;
+  background-color: #EADDCA;
+  box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  transition: 0.1s ease-in-out, 0.4s color;
+}
+
+a:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ffb6c1;
+  margin: 1rem auto;
+  display: block;
+  object-fit: cover;
+}
+
+.project img {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
