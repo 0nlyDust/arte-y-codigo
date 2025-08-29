@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos - Portafolio de María</title>
+  <!-- Librería para visualizar modelos 3D -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Copperplate:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Garamond, serif;
+      background: linear-gradient(135deg, #ffffff, #ffb6c1);
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* centra verticalmente */
+      align-items: center;
+    }
+    h1 {
+      font-family: Copperplate, sans-serif;
+      color: #ffffff;
+      font-size: clamp(2rem, 6vw, 4rem);
+      margin-top: 2rem;
+      text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb;
+    }
+    .project {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255,255,255,0.5);
+      border-radius: 10px;
+    }
+    model-viewer {
+      width: 400px;
+      height: 400px;
+      margin-top: 1rem;
+    }
+    a {
+      display: inline-block;
+      margin: 2rem;
+      padding: 1rem 2rem;
+      background: #ffb6c1;
+      color: #111;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    a:hover {
+      transform: scale(1.05);
+      background: #ff99c1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Proyectos</h1>
+
+  <div class="project">Proyecto 1: Página web de ejemplo</div>
+  <div class="project">Proyecto 2: Aplicación interactiva</div>
+
+  <div class="project">
+    <h2>Proyecto 3: Modelo 3D</h2>
+    <p>Un modelo creado en Blender e integrado en la web.</p>
+    <!-- Modelo exportado a glTF/GLB -->
+    <model-viewer src="modelos/habitación.glb" alt="Modelo 3D"
+                  auto-rotate camera-controls></model-viewer>
+  </div>
+
+  <a href="menu.html">🌸 Volver al Menú</a>
+</body>
+</html>
