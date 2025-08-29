@@ -17,7 +17,7 @@
       height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center; /* centra verticalmente */
+      justify-content: center;
       align-items: center;
     }
     h1 {
@@ -62,7 +62,7 @@
   <div class="project">
     <h2>Proyecto 2: Escena 3D</h2>
     <p>Escenario 3D de unas fresas hechas en Blender.</p>
-    <model-viewer src="modelos/fresas.glb"
+    <model-viewer src="modelos/suculentas.glb"
               auto-rotate camera-controls
               exposure="1" shadow-intensity="1"
               style="width: 500px; height: 500px;">
@@ -74,8 +74,8 @@
     <p>Escenario 3D de una habitación creada en Blender.</p>
     <model-viewer src="modelos/habitacion.glb"
               auto-rotate camera-controls
-              exposure="1" shadow-intensity="1"
-              style="width: 500px; height: 500px;">
+              style="width: 500px; height: 500px;"
+              environment-image="https://modelviewer.dev/shared-assets/environments/studio.hdr">
 </model-viewer>
   </div>
 
