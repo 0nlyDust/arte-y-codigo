@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos - Portafolio de María</title>
+  <link href="https://fonts.googleapis.com/css2?family=Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Copperplate:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Garamond, serif;
+      background: linear-gradient(135deg, #ffffff, #ffb6c1);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem; /* espacio para scroll */
+    }
+
+    h1 {
+      font-family: Copperplate, sans-serif;
+      color: #ffffff;
+      font-size: clamp(2rem, 6vw, 4rem);
+      margin: 2rem 0;
+      text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb;
+    }
+
+    .project {
+      width: 100%;
+      max-width: 900px;
+      margin: 2rem 0;
+      padding: 1rem 1.5rem;
+      background: rgba(255,255,255,0.7);
+      border-radius: 10px;
+      box-sizing: border-box;
+      text-align: left;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+      border-radius: 10px;
+    }
+
+    .project h2 {
+      margin-top: 0;
+      font-size: clamp(1.5rem, 4vw, 2rem);
+    }
+
+    .project p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      line-height: 1.5;
+    }
+
+    a {
+      display: inline-block;
+      margin: 2rem 0;
+      padding: 1rem 2rem;
+      background: #ffb6c1;
+      color: #111;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    a:hover {
+      transform: scale(1.05);
+      background: #ff99c1;
+    }
+
+    @media (min-width: 768px) {
+      /* Texto al lado de la imagen en pantallas grandes */
+      .project {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+      }
+      .project img {
+        width: 50%;
+        margin: 0;
+      }
+      .project div {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Proyectos</h1>
+
+  <div class="project">
+    <div>
+      <h2>Proyecto 1: Página web de ejemplo</h2>
+      <p>Un proyecto de diseño web sencillo para mostrar estructura y estilo.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="img/render-fresas.png" alt="Proyecto 2">
+    <div>
+      <h2>Proyecto 2: Escena de fresas 3D</h2>
+      <p>Una composición colorida de fresas modeladas en Blender con estilo low poly y materiales simples.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="img/render-habitacion.png" alt="Proyecto 3">
+    <div>
+      <h2>Proyecto 3: Habitación 3D hecha en Blender</h2>
+      <p>Una escena de una habitación modelada con materiales procedurales en low poly.</p>
+    </div>
+  </div>
+
+  <a href="menu.html">🌸 Volver al Menú</a>
+</body>
+</html>
