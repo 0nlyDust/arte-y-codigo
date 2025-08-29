@@ -63,10 +63,13 @@
 
   <div class="project">
     <h2>Proyecto 3: Modelo 3D</h2>
-    <p>Un modelo creado en Blender e integrado en la web.</p>
-    <!-- Modelo exportado a glTF/GLB -->
-    <model-viewer src="modelos/habitación.glb" alt="Modelo 3D"
-                  auto-rotate camera-controls></model-viewer>
+    <p>Escenario 3D de una habitación creada en Blender.</p>
+    <model-viewer src="modelos/habitacion.glb"
+              auto-rotate camera-controls
+              exposure="1" shadow-intensity="1"
+              style="width: 500px; height: 500px;">
+</model-viewer>
+
   </div>
 
   <a href="menu.html">🌸 Volver al Menú</a>
