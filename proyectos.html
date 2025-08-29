@@ -34,10 +34,10 @@
       background: rgba(255,255,255,0.5);
       border-radius: 10px;
     }
-    model-viewer {
-      width: 400px;
-      height: 400px;
-      margin-top: 1rem;
+    .project img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
     }
     a {
       display: inline-block;
@@ -60,14 +60,20 @@
 
   <div class="project">Proyecto 1: Página web de ejemplo</div>
   <div class="project">
-    <h2>Proyecto 2: Modelo 3D</h2>
-    <p>Escenario 3D de una habitación creada en Blender.</p>
-    <model-viewer src="modelos/habitacion.glb"
-              auto-rotate camera-controls
-              style="width: 500px; height: 500px;"
-              environment-image="https://modelviewer.dev/shared-assets/environments/studio.hdr">
-</model-viewer>
+    <img src="img/render-habitacion.jpg" alt="Proyecto 2">
+    <div class="project-text">
+      <h2>Proyecto 2: Escena de fresas 3D</h2>
+      <p>Una composición colorida de fresas modeladas en Blender con estilo low poly y materiales simples
+    </div>
   </div>
+  <div class="project">
+    <img src="img/render-fresas.jpg" alt="Proyecto 2">
+    <div class="project-text">
+      <h2>Proyecto 3: Habitación 3D hecha en Blender</h2>
+      <p>Una escena de una habitación modelada con materiales procedurales en low poly.</p>
+    </div>
+  </div>
+
 
   <a href="menu.html">🌸 Volver al Menú</a>
 </body>
