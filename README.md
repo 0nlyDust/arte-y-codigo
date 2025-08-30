@@ -5,5 +5,4 @@ Aquí muestro algunos de mis proyectos en desarrollo, mis intereses en informát
 
 ## 🚀 Herramientas utilizadas
 - **HTML5, CSS**
-- **Blender**
 - **Git & GitHub Pages**
