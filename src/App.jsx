@@ -1,6 +1,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import "./App.css";
 
+import izeCubeImg from "./assets/IZECube.png";
 import ducksImg from "./assets/ducks.png";
 import dashboardImg from "./assets/Dashboard.png";
 import dashboardPreviewImg from "./assets/dashboard-user.png";
@@ -21,6 +22,13 @@ const icons = {
 };
 
 const projects = [
+    {
+    title: "Ize Cube",
+    description: "Complementos para registrar y analizar la interacción con modelos 3D en Blender.",
+    image: izeCubeImg,
+    url: "https://crimsonch4os.github.io/Ize-Cube/",
+    tags: ["Blender", "3D", "Análisis de datos"],
+  },
   {
     title: "Hunt the Wumpus",
     description: "Agente inteligente que busca el oro mientras evita peligros.",
