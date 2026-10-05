@@ -163,7 +163,7 @@ function AboutContent() {
     <div className="window-content padded scroll-inside">
       <p><strong>Hola, soy María.</strong></p>
       <p>
-        Estudiante de Ingeniería Informática. Me gusta unir programación, dibujo y diseño
+        Graduada en Ingeniería Informática. Me gusta unir programación, dibujo y diseño
         para crear experiencias web interactivas con personalidad.
       </p>
       <p>
@@ -210,22 +210,34 @@ function DisksContent() {
 }
 
 function BookContent() {
-  const skills = [
-  "React",
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "Vite",
-  "Canvas API",
-  "Diseño UI/UX",
-  "Responsive Design",
-  "Blender",
-  "Desarrollo de Add-ons",
-  "Análisis de datos",
-  "Visualización de datos",
-  "Git & GitHub",
-  "GitHub Pages",
-];
+  const skills = {
+  desarrollo: [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Vite",
+    "Canvas API",
+  ],
+
+  diseño: [
+    "Diseño UI/UX",
+    "Responsive Design",
+  ],
+
+  datos3D: [
+    "Blender",
+    "Desarrollo de Add-ons",
+    "Análisis de datos",
+    "Visualización de datos",
+  ],
+
+  herramientas: [
+    "Git",
+    "GitHub",
+    "GitHub Pages",
+  ],
+};
   return (
     <div className="window-content padded scroll-inside">
       <p className="window-label">Skills</p>
