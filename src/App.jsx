@@ -1,7 +1,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import "./App.css";
 
-
+import izeCubeImg from "./assets/IZECube.png";
 import ducksImg from "./assets/ducks.png";
 import dashboardImg from "./assets/Dashboard.png";
 import dashboardPreviewImg from "./assets/dashboard-user.png";
