@@ -210,34 +210,22 @@ function DisksContent() {
 }
 
 function BookContent() {
-  const skills = {
-  desarrollo: [
-    "React",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Vite",
-    "Canvas API",
-  ],
-
-  diseño: [
-    "Diseño UI/UX",
-    "Responsive Design",
-  ],
-
-  datos3D: [
-    "Blender",
-    "Desarrollo de Add-ons",
-    "Análisis de datos",
-    "Visualización de datos",
-  ],
-
-  herramientas: [
-    "Git",
-    "GitHub",
-    "GitHub Pages",
-  ],
-};
+  const skills = [
+  "React",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "Vite",
+  "Canvas API",
+  "Diseño UI/UX",
+  "Responsive Design",
+  "Blender",
+  "Desarrollo de Add-ons",
+  "Análisis de datos",
+  "Visualización de datos",
+  "Git & GitHub",
+  "GitHub Pages",
+];
   return (
     <div className="window-content padded scroll-inside">
       <p className="window-label">Skills</p>
